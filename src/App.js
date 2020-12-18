@@ -38,7 +38,7 @@ export default function App() {
   return (
     <div className="App">
       <img className="poster-img" src={show.image.original} alt={show.name} />
-      <h1>{show.name} VERCEL</h1>
+      <h1>{show.name}</h1>
       {parse(show.summary)}
       <Dropdown
         options={Object.keys(seasons)}
